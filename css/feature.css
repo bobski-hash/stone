@@ -1,0 +1,33 @@
+.feature{
+    padding: 150px 0;
+    background: var(--clr-white);
+}
+
+.feature__wrapper{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-item{
+    width: 350px;
+}
+
+.item-title{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.item-number{
+    font-size: 70px;
+    color: var(--clr-pink);
+    margin-bottom: 76px;
+}
+
+.item-par{
+text-height: 17px;  
+}
+
+.feature .btn{
+    padding-top: 67px;
+}

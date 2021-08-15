@@ -1,0 +1,20 @@
+.contact{
+    display: flex;
+    height: 967px;
+    background: var(--clr-white);
+    padding-top: 104px;
+    
+}
+
+.contact .container{
+display: block;
+justify-content: center;
+    
+}
+.contact__title{
+
+}
+
+.contact__form{
+
+

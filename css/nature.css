@@ -1,0 +1,29 @@
+.nature{
+  display: flex;
+  background: url(../images/bg-section_2_03.jpg);
+  height: 960px;  
+}
+
+.nature .container{
+    display: block; 
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nature__title{
+    padding-top: 417px;
+    font-size: 110px;
+    font-style: regular;
+    color: var(--clr-white);
+    margin-bottom: 31px;
+
+}
+
+.nature__subtitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-white);
+  font-size: 20px;
+}
+    

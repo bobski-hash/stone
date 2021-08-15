@@ -1,0 +1,115 @@
+header{
+    background: url(../images/header_background.jpg) no-repeat center  /cover;
+
+}
+
+.header {
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+.logo {
+}
+.logo-text {
+    font-family: "Righteous";
+    font-size: 42px;
+    color: var(--clr-white);
+    margin-left: 20px;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+   
+}
+.header__list:not(:last-child) .header__link {
+border-right: 1px solid var(--clr-border);
+
+}
+.header__link {
+    padding: 15px 30px;
+    color: var(--clr-white);
+    font-size: 20px;
+    font-weight: 500;
+}
+.header__link.active{
+    color: var(--clr-active);
+}
+.header__text {
+ padding: 330px 0 130px; 
+ text-align: center;  
+}
+.header__title {
+    font-size: 110px ;
+    font-weight: 400;
+    color: var(--clr-white);
+}
+.header__subtitle {
+font-size: 20px;
+color: var(--clr-white); 
+margin: 20px 0 40px;   
+}
+.header__socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    
+}
+.social-links{
+    color: var(--clr-white);
+    font-size: 25px;
+    transition: transform 0.3s linear;
+}
+
+.social-links:hover{
+        transform: scale(1.2) rotate(360deg);
+
+    }
+
+.social-links:nth-child(2) {
+    margin: 0 10px;
+}
+
+.fa-pinterest {
+  
+}
+.fa-facebook {
+}
+.fa-instagram-square {
+}
+.header__slider {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 130px;
+    align-items: center;
+}
+.prev,
+.next {
+border: none;
+outline: none;
+background: transparent;
+cursor: pointer;
+color: var(--clr-white);
+font-size: 25px;
+transition: transform 0,3s linear;
+}
+
+.prev:hover,
+.next:hover{
+    transform: scale(1.3);
+}
+
+.fa-chevron-left {
+}
+.next {
+}
+.fa-chevron-right {
+}
